@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<launch>
+  <include file="$(find realsense2_camera)/launch/rs_aligned_depth.launch"/>
+  <node pkg="ORB_SLAM2" type="D435I_nav" name="D435I_nav"
+  args="/home/wanggong/orb_surfel/orb_slam2/ORB_SLAM2_keyframe/Vocabulary/ORBvoc.bin /home/wanggong/orb_surfel/orb_slam2/ORB_SLAM2_keyframe/Examples/ROS/ORB_SLAM2/yaml/d435i.yaml"
+  output="screen"/>
+    <include file="$(find mbot_navigation)/launch/mbot_navigation.launch"/>
+</launch>

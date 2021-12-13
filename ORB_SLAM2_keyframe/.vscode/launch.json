@@ -1,0 +1,27 @@
+{
+    "configurations": [
+    {
+        "name": "rgbd_tum",
+        "type": "cppdbg",
+        "request": "launch",
+        "program": "/home/wanggong/ORB_SLAM2_keyframe/Examples/RGB-D/rgbd_tum",
+        "args": ["/home/wanggong/ORB_SLAM2_keyframe/Vocabulary/ORBvoc.bin",
+                "/home/wanggong/ORB_SLAM2_keyframe/Examples/RGB-D/TUM1.yaml",
+                "/home/wanggong/rgbd_dataset_freiburg1_desk",
+                "/home/wanggong/rgbd_dataset_freiburg1_desk/associate.txt/"
+                ],
+        "stopAtEntry": false,
+        "cwd": "${fileDirname}",
+        "environment": [],
+        "externalConsole": false,
+        "MIMode": "gdb",
+        "setupCommands": [
+            {
+                "description": "为 gdb 启用整齐打印",
+                "text": "-enable-pretty-printing",
+                "ignoreFailures": true
+            }
+        ]
+    }
+    ]
+}

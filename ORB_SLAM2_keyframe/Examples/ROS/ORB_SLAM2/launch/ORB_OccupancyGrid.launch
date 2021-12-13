@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<launch>
+  <include file="$(find ORB_SLAM2)/launch/PointCloudMapping.launch"/>
+	<node name="rviz" pkg="rviz" type="rviz" args="-d $(find ORB_SLAM2)/config/ORB_SLAM2_Mapping.rviz" required="true" />
+</launch>

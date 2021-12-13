@@ -1,0 +1,68 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ORB_SLAM2",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ORB_SLAM2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ORB_SLAM2-Release-3b5702ff814ffdd69b86.json",
+					"name" : "ORB_SLAM2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rgbd_tum::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rgbd_tum-Release-29f3d6dffebe889b57c6.json",
+					"name" : "rgbd_tum",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/wanggong/ORB_SLAM2_keyframe/build",
+		"source" : "/home/wanggong/ORB_SLAM2_keyframe"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

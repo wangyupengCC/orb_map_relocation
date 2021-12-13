@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<launch>
+  <param name="frame_id" value="World"/>
+  <node pkg="ORB_SLAM2" type="RGBD" name="RGBD"
+  args="/home/wanggong/catkin_ws/src/orb_slam2/ORB_SLAM2_keyframe/Vocabulary/ORBvoc.txt /home/wanggong/catkin_ws/src/orb_slam2/ORB_SLAM2_keyframe/Examples/ROS/ORB_SLAM2/yaml/d435i.yaml"
+  output="screen"/>
+  <!-- <include file="$(find save_rgbd)/launch/SaveRGBD.launch" /> -->
+</launch>
